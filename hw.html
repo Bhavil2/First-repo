@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW cards</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            height:100vh;
+            width:100vw;
+            background-color: #2c22a5;
+            background-image: linear-gradient(160deg, #2c22a5 0%, #3e4f9d 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .actualbox{
+           height:60%;
+           width:70%;
+           background-color: wheat;
+           display: flex;
+        }
+        .leftbox{
+            width: 50%;
+            height: 100%;
+            background-color: rgb(72, 11, 72);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .rightbox{
+            width: 50%;
+            height: 100%;
+            background-color: white;
+        }
+        .rightbox img{
+            width: 100%;
+            height: 100%; 
+        }
+        .leftbox h1{
+            width: 80%;
+            margin-left: 39px;
+            color: white;
+            font-size: 2.2rem;
+        }
+        .leftbox p{
+            width: 80%;
+            margin-left: 39px;
+            color: white;
+        }
+        .leftbottom{
+            display: flex;   
+            width: 80%;
+        }
+        .b1{
+            display: flex;
+            flex-direction: column;
+            width: 30%;
+        }
+        .b2{
+            display: flex;
+            flex-direction: column;
+            width: 30%;
+            
+        }
+        .b3{
+            display: flex;
+            flex-direction: column;
+            width: 30%;
+
+        }
+        #L1{
+            font-size: 1.7rem;
+            font-weight: bold;
+        }
+        #L2{
+            font-size: 1.7rem;
+            font-weight: bold;
+        }
+        #L3{
+            font-size: 1.7rem;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="actualbox">
+            <div class="leftbox">
+                <h1>Get insight that helps your buisness grow</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi assumenda amet pariatur dicta ex! Nobis consectetur error laudantium veniam magni maiores accusamus quasi ad.</p>
+                <div class="leftbottom">
+                    <div class="b1">
+                        <p id="L1"> 10K+</p>
+                        <p>comments</p>
+                    </div>
+                    <div class="b2">
+                        <p id="L2">214</p>
+                        <p>paid user</p>
+                    </div>
+                    <div class="b3">
+                        <p id ="L3">12 M+</p>
+                        <p>views</p>
+                    </div>                
+                </div>
+             </div>
+             <div class="rightbox">
+                <img src="music.jpg" alt="">
+
+             </div>
+
+        </div>
+     </div>
+    </div>
+</body>
+</html>
